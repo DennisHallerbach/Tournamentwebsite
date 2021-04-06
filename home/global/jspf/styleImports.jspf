@@ -1,0 +1,9 @@
+<!-- von Stefan Rother -->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+ 
+<link rel="stylesheet" type="text/css" href="../../global/css/styleFoot.css" />
+<link rel="stylesheet" type="text/css" href="../../global/css/styleNav.css" />
+<link rel="stylesheet" type="text/css" href="../../global/css/styleFormular.css" />
+<script src="../../global/js/showHide.js"></script>	
+<script src="../../global/js/logout.js"></script>	

@@ -1,0 +1,110 @@
+/* von Stefan Rother */
+
+@charset "utf-8";
+
+/*
+#222629 - cole
+#474B4f - middle grey
+#6b6e70 - light grey
+#61892F - dark green
+#86c232 - light green
+#bdbdbd - very light grey
+*/
+
+
+
+/*Body*/
+
+body {	
+	font-family: Helvetica, Arial, Geneva, sans-serif;
+	background-color:#474B4f;
+}
+
+h1{
+	color: white;
+	font-size: 42px;
+	text-align: center;
+	padding-top: 1em;
+}
+
+h2{
+	font-size: 28px;
+}
+
+h3{
+	font-size: 16px;
+}
+
+
+p{color:white;}
+
+ul {
+	color: #A9A9A9;
+}
+
+#LayoutContainer{
+	background-color: #222629; 
+	width: 85%;
+  border: 3px solid #86c232;
+  margin: auto;
+}
+
+.picture{
+	width: 28px;
+	height: 28px;
+}
+
+
+/*Table Style*/
+
+.tableHead {
+  background-color: #86c232;
+  color: white;
+}
+
+.tableHead, .tableData {
+	padding: 15px;
+  text-align: center;
+  
+}
+
+.tableRow:nth-child(even) {
+	background-color: #bdbdbd ;
+}
+.tableRow:nth-child(odd) {
+	background-color: white ;
+}
+
+#tablediv{
+	padding: 1.5em;
+	overflow-x:auto;
+	width: 50%;
+	margin: auto;
+}
+
+#ButtonContainer{
+	width: 50%;
+	margin: auto;
+	padding-bottom: 1.5em;
+}
+
+/*Link*/
+
+.link{
+margin-top: 1.5em;
+margin-left: 2px;
+}
+
+.link:link, .link:visited {
+  background-color: #86c232;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link:hover, .link:active {
+  background-color: #61892F;
+}
+s

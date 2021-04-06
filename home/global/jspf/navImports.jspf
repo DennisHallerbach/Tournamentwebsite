@@ -1,0 +1,12 @@
+<!-- von Stefan Rother -->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<button type="button" id="createTeamButton">Create Team</button>
+<a href="../../../showDashboardServlet">Dashboard</a>
+<a href="../../../showTournamentsUserServlet">Tournaments</a>
+<a href="../../../ReadAccServlet_Session">Account</a>
+<a href="../../../ReadTeamServlet">Show Team</a>	
+<button type="button" id="loginButton">Logout</button>
+
+	

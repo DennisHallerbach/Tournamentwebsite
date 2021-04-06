@@ -1,0 +1,59 @@
+/**
+ * Made by Dennis Hallerbach
+ */
+@charset "UTF-8";
+h1 {
+	font-size: 32px;
+	padding-top: 40px;
+}
+
+table {
+	display: inline;
+	width: 28%;
+}
+
+.tabellen {
+	display: flex;
+	width: 100%;
+}
+
+a:link {
+	color: #86c232
+}
+
+a:visited {
+	color: #86c232
+}
+
+#Viertelfinale {
+	width: 20%;
+}
+
+#Viertelfinale tr:nth-of-type(2n+1) td {
+	padding-bottom: 38px;
+}
+
+table tr:nth-of-type(1) th {
+	color: #86c232;
+	padding-bottom: 30px;
+}
+
+#Halbfinale tr:nth-of-type(2) td {
+	padding-top: 38px;
+}
+
+#Halbfinale tr:nth-of-type(4) td {
+	padding-top: 114px;
+}
+
+#Finale tr:nth-of-type(2) td {
+	padding-top: 117px;
+}
+
+#Sieg td {
+	padding-top: 128.5px;
+}
+
+#Sieg {
+	width: 14%;
+}

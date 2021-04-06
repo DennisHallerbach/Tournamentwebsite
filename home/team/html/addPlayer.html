@@ -1,0 +1,31 @@
+<!-- von Stefan Rother -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../../global/css/styleMsg.css" />
+	<link rel="stylesheet" type="text/css" href="../../global/css/styleFormular.css" />
+    <title>Add Players To The Team</title>
+</head>
+
+<body>
+<div id="LayoutContainer">
+    <form method="post" action="../../../AddToTeamServlet">      
+		<fieldset class="formFieldset">
+			<legend class="formLegend">Add A Player To Your Team</legend>
+			<div>
+	            <label class="formLabel">Add Player : </label>
+	            <input class="formInput" type="text" name="username" maxlength="20" required>
+			</div>
+			<div>
+				<button type="submit" class="formButton">Add Player To The Team</button>
+			</div>
+		</fieldset>     
+    </form>
+	
+    <a class="link" href="../../../ReadTeamServlet">back to team</a>
+</div>
+</body>
+
+</html>

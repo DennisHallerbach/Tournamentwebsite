@@ -1,0 +1,28 @@
+<!-- von Stefan Rother -->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<hr/>
+<footer>
+    <div id="wrapper">
+
+        <div id="footP">
+            <p>Your Home For Competitive Gaming</p>
+        </div>
+
+        <div id="foottablediv">
+            <table>
+                <tr>
+                    <td class="footTableData"><a class="footAnchor" href="../../impressum/html/about1.html">About</a></td>
+                </tr>
+                <tr>
+                    <td class="footTableData"><a class="footAnchor" href="../../impressum/html/rules1.html">Rules</a></td>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</footer>
+</body>
+
+</html>

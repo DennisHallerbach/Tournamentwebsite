@@ -1,0 +1,37 @@
+/* von Stefan Rother */
+
+@charset "UTF-8";
+
+
+
+#wrapper{
+margin-top: 1.5em;
+display:flex;
+}
+
+#foottablediv{
+	flex: 1;
+}
+
+.footTableData{
+	padding: 5px;
+}
+
+.footAnchor{
+	text-decoration:none;
+}
+
+.footAnchor:visited, .footAnchor:active, .footAnchor:link{
+	color: #A9A9A9;
+}
+.footAnchor:hover{
+	color: #86c232;
+}
+
+#footP{
+	font-size: 16px;
+	flex: 0 0 65%;
+	text-align: center;
+	padding-top: 15px;
+}
+	

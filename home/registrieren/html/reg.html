@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../../global/css/styleMsg.css" />
+	<link rel="stylesheet" type="text/css" href="../../global/css/styleFormular.css" />
+    <script src="../js/checkUserTaken.js"></script>
+    <title>Registration</title>
+</head>
+
+<body>
+<div id="LayoutContainer">
+
+    <div class="container">
+        <fieldset class="formFieldset">
+            <legend class="formLegend">Please Insert Your Data</legend>
+
+            <form class="formular" method="post" action="../../../RegistrationServlet">
+                <div>
+                    <label class="formLabel">Username: </label>
+                    <input id="inputUser" class="formInput" type="text" name="username" maxlength="20">
+                </div>
+                <div>
+                    <p id="taken"></p>
+                </div>
+
+                <div>
+                    <label class="formLabel">Region: </label>
+                    <select class="formSelect" name="region">
+                        <option value="EU">EU</option>
+                        <option value="NA">NA</option>
+                        <option value="Russia">Russia</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="formLabel">Email: </label>
+                    <input class="formInput" type="email" name="email" maxlength="20">
+                </div>
+
+                <div>
+                    <label class="formLabel">Password: </label>
+                    <input class="formInput" type="password" name="password" maxlength="20">
+                </div>
+
+                <div>
+                    <label class="formLabel">Name: </label>
+                    <input class="formInput" type="text" name="name" maxlength="20">
+                </div>
+
+                <button id="submitForm" class="formButton" type="submit" name="action" value="Registrieren">Registrieren</button>
+            </form>		 
+        </fieldset>
+		<p>Already Got An Account?</p> 
+			<a class="link" href="../../login/jsp/login.jsp">Login</a>
+			<a class="link" href="../../../index.html">Back to Mainpage</a>
+    </div>
+</div>	
+</body>
+
+</html>

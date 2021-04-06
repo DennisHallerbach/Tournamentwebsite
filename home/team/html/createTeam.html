@@ -1,0 +1,29 @@
+<!-- von Stefan Rother -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Create Team</title>
+</head>
+
+<body>
+    <h1>Create Your Team</h1>
+
+    <form method="post" action="../../../CreateTeamServlet">
+        <div>
+            <label>Team Name: </label>
+            <input type="text" name="teamname" maxlength="20">
+        </div>
+
+        <div>
+            <label>Team Leader: </label>
+            <!-- Erstellender Nutzer, Session -->
+        </div>
+        
+        <div>
+            <button type="submit" class="button">Create Team</button>
+        </div>
+    </form>
+</body>
+</html>

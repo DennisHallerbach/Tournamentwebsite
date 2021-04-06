@@ -1,0 +1,193 @@
+/*von Stefan Rother*/
+@charset "UTF-8";
+
+label{
+	min-width: 6em;
+	display: inline-block;
+	text-align: right;
+}
+
+input{
+	width: 20em;
+}
+
+fieldset{
+	width: 55%;
+	padding-top: 1.5em;
+	padding-left: 1.5em;
+	background: #474B4f;
+	border: 1px solid #000330;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 1.5em;
+}
+
+legend{
+	background: #86c232;
+	padding: 0.2em;
+	border: 1px solid #000330;
+	border-radius: 5px;
+	color: white;
+	
+    margin-left: -15px;
+    
+}
+
+
+/*horizontal, vertikal Verschiebung, Weichzeicheneffekt rgba Alpha - Deckkraft*/
+
+input:hover{
+	background: #fffff0;
+	border: 2px solid #000330;
+	box-shadow: 0 0 10px rgba (0,0,0,0.2)
+}
+
+button:hover {
+	color:white;
+	background: #222629;
+	border: 2px solid #6c6c6c;
+}
+
+button:active{
+	background: #86c232;
+}
+
+
+form div{
+	padding: 0.2em;
+}
+
+/*Body*/
+
+html, body{
+	width: 100%;
+}
+
+body {	
+	font-family: Helvetica, Arial, Geneva, sans-serif;
+	background-color:#474B4f;
+}
+
+h1{
+	color: white;
+	font-size: 42px;
+	text-align: center;
+	padding-top: 1em;
+}
+
+h2{
+	font-size: 28px;
+}
+
+h3{
+	font-size: 16px;
+}
+
+
+p{
+	color:white;
+	}
+
+ul {
+	color: #A9A9A9;
+}
+
+#LayoutContainer{
+	background-color: #222629; 
+	width: 60%;
+  border: 3px solid #86c232;
+  margin: auto;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  
+}
+
+
+
+/*Table Style*/
+
+#topSpace{
+	padding-top: 50px;
+}
+
+
+.accTable{
+	padding-top: 40px;
+	margin: 0 auto;
+	border-spacing: 0;
+	
+}
+
+.tableHead {
+background-color: #86c232;
+color: white;
+   
+}
+
+.tableData{
+border-bottom: 1px solid #86c232;	
+}
+
+.tableData:last-child{
+	border-bottom: 1px solid #86c232;
+}
+
+.tableHead, .tableData {
+	padding: 15px;
+  text-align: left;
+ 
+  color: white;
+  width: 50%;
+  
+}
+
+#tablediv{
+	overflow-x:auto;
+
+}
+
+
+
+/*Link*/
+
+
+.link{
+
+text-align: center;
+margin: 0 auto;
+
+}
+
+.link:link, .link:visited {
+  background-color: #86c232;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  display: block;
+  width: 25%;
+  
+}
+
+.link:hover, .link:active {
+  background-color: #61892F;
+}
+
+
+#toggleEmail, #toggleRegion, #togglePassword, #toggleName{
+	border: none;
+}
+
+
+.hideTable{
+	display: none;
+}
+
+.showTable{
+	display: table-cell;
+}
+
+#deleteButton{
+	padding: 15px;  
+}
+
+

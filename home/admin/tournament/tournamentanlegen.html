@@ -1,0 +1,41 @@
+<!-- von Dennis Hallerbach -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<base href="${pageContext.request.requestURI}" />
+<title>Tournament anlegen</title>
+</head>
+<body>
+	<h1>HIer können Sie ein neues Tournament anlegen</h1>
+	<form action="../../../createTournamentServlet" method="post">
+		<p>
+			Titel des Tournaments:<br>
+			<input type="text" name="Tournamenttitel" size="30" maxlength="30"
+				placeholder="Titel" required>
+		</p>
+		<div>
+			<label for="Spiel">Spiel:</label> 
+			<select name="game" id="Spiel" size="3">
+				<option value="LeagueofLegends" selected>League of Legends</option>
+				<option value="Dota2">Dota 2</option>
+				<option value="CSS">Counterstrike</option>
+
+			</select>
+		</div>
+		<div>
+			<label for="Anzahl">Anzahl der Teilnehmer:</label> 
+			<select name="anzahl" id="Anzahl" size="3" >
+				<option value="8" selected>8</option>
+				<option value="16">16</option>
+				<option value="32">32</option>
+
+			</select>
+		</div>
+		<button type="submit" name="tournamentanlegen" value="writeToSession">Anlegen</button>
+		<button type="reset" >Reset</button>
+	</form>
+
+	
+</body>
+</html>

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+h1{
+padding-top: 30px;}
+#anzeigen table
+{
+	border: 1px solid #86c232;
+	border-collapse: collapse;
+}
+#anzeigen td{
+	border: 1px solid #86c232;
+	border-collapse: collapse;
+}
+#anzeigen tf{
+	border: 1px solid #86c232;
+	border-collapse: collapse;
+}
+h2,h3{
+color:#86c232;}
+#anzeigen a:link {
+	color: #6b6e70;
+}
+
+#anzeigen a:visited {
+	color: #6b6e70;
+}

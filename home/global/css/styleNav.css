@@ -1,0 +1,105 @@
+/* von Stefan Rother */
+
+@charset "utf-8";
+
+/*
+#222629 - cole
+#474B4f - middle grey
+#6b6e70 - light grey
+#61892F - dark green
+#86c232 - light green
+#bdbdbd - very light grey
+*/
+
+
+
+nav{
+background-color: #222629;
+z-index: 5;
+position: fixed;
+top: 0; 
+width: 100%;
+left:0;
+border-bottom: 3px solid #86c232;
+}
+
+nav a, #createTeamButton, #loginButton{
+	float: left;
+	color: #86c232;
+	text-align: center;
+	padding: 1.0em;
+	text-decoration: none;
+	font-size: 17px;
+	border-right: 1px solid #6b6e70;	
+}
+
+nav a:hover, #createTeamButton:hover, #loginButton:hover{
+	background-color: #6b6e70;
+	color: black;
+}
+
+nav a.active, #createTeamButton.active, #loginButton.active{
+	background-color: #61892F;
+	color: white;
+}
+
+
+#createTeamButton, #loginButton{
+	border: none;
+	border-right: 1px solid #6b6e70;
+	background-color: transparent;
+}
+
+
+#createTeam{
+	position: absolute;
+	z-index: 3;
+	float: left;
+	margin: 0px;
+	left:0px;
+	margin-top: 65px;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+}
+
+
+.ctLabel {
+	
+	display: inline-block;
+	text-align: right;
+}
+
+.ctInput {
+	width: 20em;
+}
+
+#ctFieldset{
+	
+	
+	background: #474B4f;
+	border: 1px solid #000330;
+	border-radius: 5px;
+}
+
+#ctLegend{
+	background: #86c232;
+	
+	border: 1px solid #000330;
+	border-radius: 5px;
+	color: white;
+  
+}
+
+
+
+
+
+
+
+

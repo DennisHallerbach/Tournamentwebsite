@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+#createTeam{
+	color: white;
+}
+
+.formLabel {
+	min-width: 6em;
+	display: inline-block;
+	text-align: left;
+}
+
+.formInput {
+	width: 20em;
+}
+
+.formFieldset{
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 1.5em;
+	padding-left: 1.5em;
+	background: #474B4f;
+	border: 1px solid #000330;
+	border-radius: 5px;
+}
+
+.formLegend{
+	background: #86c232;
+	padding: 0.2em;
+	border: 1px solid #000330;
+	border-radius: 5px;
+}
+
+.formSelect{
+	width: 20.5em;
+}
+
+
+form div{
+	padding: 0.5em;
+}
+
+#FormPadding div{
+	padding: 0.5em;
+}
+
+
+
+
+/*horizontal, vertikal Verschiebung, Weichzeicheneffekt rgba Alpha - Deckkraft*/
+
+.formInput:hover{
+	background: #fffff0;
+	box-shadow: 0 0 10px rgba (0,0,0,0.2)
+}
+
+.formButton:hover {
+	background: #c9c9c9;
+	border: 2px solid #6c6c6c;
+}
+
+.formButton:active{
+	background: #8f8f8f;
+}
+
+.fieldInput:required + span::after{
+	color: red; 
+	content: " *";
+}
+
+.fieldInput[type="text"]:valid + span::after{
+	color: green;
+	conent: " ✔"
+}
+
+.formular, .container{
+	padding: 0.2em;
+}
+
+
+
+
